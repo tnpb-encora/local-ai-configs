@@ -1,10 +1,7 @@
 name: "mixtral-8x7b-v2"
-download_files:
-  - filename: mixtral-8x7b-instruct-v0.1.Q5_K_M.gguf
-    uri: https://huggingface.co/tnpb/mixtral-8x7b-test/blob/main/mixtral-8x7b-instruct-v0.1.Q5_K_M.gguf
 backend: llama
 parameters:
-  model: mixtral-8x7b-instruct-v0.1.Q5_K_M.gguf
+  model: https://huggingface.co/tnpb/mixtral-8x7b-test/blob/main/mixtral-8x7b-instruct-v0.1.Q5_K_M.gguf
 threads: 10
   temperature: 0.2
   template:
